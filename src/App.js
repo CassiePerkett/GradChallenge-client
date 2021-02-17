@@ -102,6 +102,12 @@ function App() {
         <Button>Show Details</Button>
         <Button>Hide coin</Button>
       </Container>
+      <br></br>
+      <Container>
+        <h2>Stellar</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
 
     </div>
   );
