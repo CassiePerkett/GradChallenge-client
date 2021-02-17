@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components';
 
+
 const Button = styled.button`
   color: palevioletred;
   background-color: white;
@@ -27,6 +28,11 @@ const Section = styled.div`
   font-size: 1.5em;
   }
 `;
+const Container = styled.div`
+  color: black;
+  background: papayaviolet;
+  }
+`;
 
 function App() {
   return (
@@ -37,7 +43,66 @@ function App() {
       <br></br>
       <p>Crytocurrency coin information will be listed below.</p>
       <br></br>
-      <Button>I am a button</Button>
+      <Container>
+        <h2>Bitcoin</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>Ethereum</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>Polkadot</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>XRP</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>Cardano</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>Tether</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>Binance Coin</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>Litecoin</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>Bitcoin Cash</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+      <br></br>
+      <Container>
+        <h2>ChainLink</h2>
+        <Button>Show Details</Button>
+        <Button>Hide coin</Button>
+      </Container>
+
     </div>
   );
 }
